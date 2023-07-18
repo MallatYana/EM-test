@@ -1,0 +1,29 @@
+form {
+  margin-top: 30px !important;
+
+  .form-group {
+    margin: 10px 0px;
+    font-size: 17px;
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    label {
+      font-weight: 500;
+
+    }
+    .form-control {
+      height: 25px;
+
+      border-radius: 5px;
+      border: 1px solid #dddddd;
+    }
+  }
+  .warn {
+    color: red;
+    font-weight: lighter;
+    font-size: 14px;
+    text-align: right;
+  }
+}

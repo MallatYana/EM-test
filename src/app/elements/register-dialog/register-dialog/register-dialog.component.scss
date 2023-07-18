@@ -1,0 +1,40 @@
+.main {
+  width: 450px;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  form {
+    .form-group {
+      margin: 10px 0;
+      font-size: 17px;
+      width: 350px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+
+      label {
+        font-weight: 500;
+
+      }
+      .form-control {
+        height: 25px;
+
+        border-radius: 5px;
+        border: 1px solid #dddddd;
+      }
+    }
+    .warn {
+      color: red;
+      font-weight: lighter;
+      font-size: 14px;
+      text-align: right;
+    }
+  }
+
+  .form-group-btn {
+    display: flex;
+    justify-content: center;
+  }
+}

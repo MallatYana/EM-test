@@ -1,0 +1,7 @@
+<div class="title">
+  <h1> List of the posts: </h1>
+</div>
+
+<div *ngFor = "let item of items">
+  <app-post-item [item]="item"></app-post-item>
+</div>

@@ -1,0 +1,30 @@
+.item {
+  width: 500px;
+  background: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  margin: 20px 0;
+
+  .item-title {
+    background-color: #dddddd;
+    font-weight: bolder;
+    font-size: 15px;
+
+    padding: 5px 10px;
+    color: #28060c;
+    cursor: pointer;
+
+    text-align: center;
+    line-height: 90%;
+
+    :hover {
+      color: #7D1424;
+    }
+  }
+
+
+  .item-body {
+    padding: 5px 15px;
+    text-align: justify;
+  }
+}
